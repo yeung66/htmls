@@ -1,183 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./tailwind.min.css" rel="stylesheet" />
-  </head>
-  <body class="">
-    <div class="bg-gray-200 w-screen font-thin text-sm">
-      <div class="flex container mx-auto justify-between px-3">
-        <div class="flex-auto">
-          <p class="p-3">欢迎访问湖南大福信息技术咨询有限公司</p>
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="bg-gray-200 w-screen font-thin text-sm hidden md:block">
+        <div class="flex container mx-auto justify-between px-3">
+            <div class="flex-auto">
+                <p class="p-3">欢迎访问湖南大福信息技术咨询有限公司</p>
+            </div>
+            <div class="flex-auto">
+                <ul class="flex justify-end">
+                    <li class="p-3"><a href="#">项目管理系统</a></li>
+                    <li class="p-3"><a href="#">办公系统入口</a></li>
+                    <li class="p-3"><a href="#">咨询热线</a></li>
+                    <li class="p-3"><a href="#">0730-8186508</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="flex-auto">
-          <ul class="flex justify-end">
-            <li class="p-3"><a href="#">项目管理系统</a></li>
-            <li class="p-3"><a href="#">办公系统入口</a></li>
-            <li class="p-3"><a href="#">咨询热线</a></li>
-            <li class="p-3"><a href="#">0730-8186508</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
 
-    <div class="flex container mx-auto justify-between my-3 w-screen">
-      <div class="p-3">
-        <img
-          src="http://www.dafuzx.com/statics/default/images/logo.png"
-          alt="logo"
-        />
-      </div>
+    <div class="flex-col md:flex-row md:flex container mx-auto justify-between py-3 w-screen">
+        <div class="p-3 flex justify-center">
+            <img src="http://www.dafuzx.com/statics/default/images/logo.png" alt="logo" class="w-80" />
+        </div>
 
-      <div>
-        <ul class="flex">
-          <li class="p-5"><a href="#">首页</a></li>
-          <li class="p-5"><a href="#">关于我们</a></li>
-          <li class="p-5"><a href="#">新闻中心</a></li>
-          <li class="p-5"><a href="#">业务范围</a></li>
-          <li class="p-5"><a href="#">公司业绩</a></li>
-          <li class="p-5"><a href="#">人才招聘</a></li>
-          <li class="p-5"><a href="#">联系我们</a></li>
-        </ul>
-      </div>
+        <div>
+            <ul class="flex bg-gray-200 md:bg-transparent flex-col items-center justify-center md:flex-row">
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">首页</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">关于我们</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">新闻中心</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">业务范围</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">公司业绩</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">人才招聘</a></li>
+                <li class="text-center w-24 py-2 md:py-5"><a href="#">联系我们</a></li>
+            </ul>
+        </div>
     </div>
 
-    <div class="w-screen overflow-y-hidden" style="height: 26rem">
-      <img
-        src="http://www.dafuzx.com/d/file/content/2019/03/5c98d2cb41adf.png"
-        alt=""
-        class="w-screen"
-      />
+    <div class="w-screen overflow-y-hidden hidden md:block" style="height: 26rem">
+        <img src="http://www.dafuzx.com/d/file/content/2019/03/5c98d2cb41adf.png" alt="" class="w-screen" />
     </div>
 
     <div class="flex flex-col container mx-auto">
-      <div
-        class="flex flex-col justify-center items-center my-8 text-center font-bold text-2xl"
-      >
-        <div class="w-32 mx-auto">关于我们</div>
-        <h2 class="w-32 mx-auto text-yellow-600">ABOUT US</h2>
-      </div>
-      <div class="flex">
-        <div class="flex-none w-1/4 mx-10">
-          <img
-            src="http://www.dafuzx.com/d/file/content/2020/12/5fcdaaa3e1fb5.jpg"
-            alt=""
-          />
+        <div class="flex flex-col justify-center items-center py-6 text-center font-bold text-2xl">
+            <div class="w-32 mx-auto">关于我们</div>
+            <h2 class="w-32 mx-auto text-yellow-600">ABOUT US</h2>
         </div>
+        <div class="flex">
+            <div class="flex-none w-1/4 mx-10 hidden md:block">
+                <img src="http://www.dafuzx.com/d/file/content/2020/12/5fcdaaa3e1fb5.jpg" alt="" />
+            </div>
 
-        <div class="flex flex-col flex-grow mx-10 p-5 my-auto">
-          <h2 class="text-lg font-black">湖南大福信息技术咨询有限公司</h2>
-          <p>
-            湖南大福信息技术咨询有限公司是一家专业从事信息系统咨询、监理、检测等业务的公司，现有从业人员23人，其中高级工程师2人，信息系统项目管理师1人、一级建造师1人，机电建造师2人，监理工程师12人，环境监理工程师4人，嵌入式系统设计师1人，软件设计师3人、软件测评师1人，公司资质齐备，是中国电子企业协会监理分会首批会员单位，所有业务通过标准质量管理体系认证。
-            公司执业以来，先后参与了智慧城市、平安城市、数字城管、综治网格化、雪亮工程、云平台、电子口岸、电子政务外网...
-          </p>
+            <div class="flex flex-col flex-grow mx-10 p-5 my-auto items-center md:items-start">
+                <h2 class="text-lg font-black py-4">湖南大福信息技术咨询有限公司</h2>
+                <p>
+                    湖南大福信息技术咨询有限公司是一家专业从事信息系统咨询、监理、检测等业务的公司，现有从业人员23人，其中高级工程师2人，信息系统项目管理师1人、一级建造师1人，机电建造师2人，监理工程师12人，环境监理工程师4人，嵌入式系统设计师1人，软件设计师3人、软件测评师1人，公司资质齐备，是中国电子企业协会监理分会首批会员单位，所有业务通过标准质量管理体系认证。
+                    公司执业以来，先后参与了智慧城市、平安城市、数字城管、综治网格化、雪亮工程、云平台、电子口岸、电子政务外网...
+                </p>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="flex mx-auto container w-screen my-5">
-      <div class="flex-col flex-1 mx-10">
-        <div class="flex text-2xl font-bold my-5">
-          <h2>业务范围 <span class="text-yellow-600">BUSINESS</span></h2>
+    <div class="flex-col md:flex md:flex-row mx-auto container w-screen my-5">
+        <div class="flex-col flex-1 mx-10 ">
+            <div class="flex text-2xl font-bold my-5 justify-center md:justify-start">
+                <h2 class="">业务范围 <span class="text-yellow-600">BUSINESS</span></h2>
+            </div>
+            <img src="http://www.dafuzx.com/d/file/content/2019/02/5c6f93919b5d4.png" alt="" class="w-full" />
         </div>
-        <img
-          src="http://www.dafuzx.com/d/file/content/2019/02/5c6f93919b5d4.png"
-          alt=""
-          class="w-full"
-        />
-      </div>
 
-      <div class="flex-1">
-        <h2 class="text-2xl font-bold my-5 px-3">
-          新闻中心 <span class="text-yellow-600">NEWS</span>
-        </h2>
-        <div>
-          <ul>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-            <li
-              class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100"
-            >
-              <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a
-              ><span>2020-12-11</span>
-            </li>
-          </ul>
+        <div class="flex-1 justify-center md:justify-start">
+
+            <div class="flex text-2xl font-bold my-5 justify-center md:justify-start">
+                <h2 class="">新闻中心 <span class="text-yellow-600">NEWS</span></h2>
+            </div>
+            <div>
+                <ul>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                    <li class="px-3 py-3 flex justify-between border-dotted border-2 border-grey-100">
+                        <a href="">我公司顺利完成岳阳市无差别一窗受理项目的</a><span>2020-12-11</span>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="flex-col container mx-auto w-screen">
-      <div
-        class="flex flex-col justify-center items-center my-8 text-center font-bold text-2xl"
-      >
-        <div class="w-32 mx-auto">公司业绩</div>
-        <h2 class="w-32 mx-auto text-yellow-600">CASE</h2>
-      </div>
-
-      <div class="flex w-full my-5 mx-5">
-        <div class="flex-col flex-none w-1/5 h-56 justify-center items-center container p-3 m-3">
-            <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
-            <h2 class="text-center">岳阳楼区教育信息化建设</h2>
+    <div class="flex-col container mx-auto w-screen py-5">
+        <div class="flex flex-col justify-center items-center my-8 text-center font-bold text-2xl">
+            <div class="w-32 mx-auto">公司业绩</div>
+            <h2 class="w-32 mx-auto text-yellow-600">CASE</h2>
         </div>
 
-        <div class="flex-col flex-none w-1/5 h-56 justify-center items-center container p-3 m-3">
-            <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753ac023f38.jpg" alt="" class="w-full h-full">
-            <h2 class="text-center">岳阳市“互联网+政务服务”</h2>
-        </div>
+        <div class="flex w-full justify-center items-center flex-wrap mx-auto">
+            <div class="flex-col flex-none w-48 h-32 justify-center items-center container p-3 m-3">
+                <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
+                <h2 class="text-center">岳阳楼区教育信息化建设</h2>
+            </div>
 
-        <div class="flex-col flex-none w-1/5 h-56 justify-center items-center container p-3 m-3">
-            <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
-            <h2 class="text-center">岳阳楼区教育信息化建设</h2>
-        </div>
+            <div class="flex-col flex-none w-48 h-32 justify-center items-center container p-3 m-3">
+                <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753ac023f38.jpg" alt="" class="w-full h-full">
+                <h2 class="text-center">岳阳市“互联网+政务服务”</h2>
+            </div>
 
-        <div class="flex-col flex-none w-1/5 h-56 justify-center items-center container p-3 m-3">
-            <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
-            <h2 class="text-center">岳阳楼区教育信息化建设</h2>
+            <div class="flex-col flex-none w-48 h-32 justify-center items-center container p-3 m-3">
+                <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
+                <h2 class="text-center">岳阳楼区教育信息化建设</h2>
+            </div>
+
+            <div class="flex-col flex-none w-48 h-32 justify-center items-center container p-3 m-3">
+                <img src="http://www.dafuzx.com/d/file/content/2018/08/5b753d369e6ed.jpg" alt="" class="w-full h-full">
+                <h2 class="text-center">岳阳楼区教育信息化建设</h2>
+            </div>
         </div>
-      </div>
     </div>
 
-  </body>
+    <footer
+        class="w-screen mx-auto bg-gray-700 my-10 py-10 flex flex-col justify-start md:justify-center items-center mb-0 text-gray-300">
+        
+            <ul class="flex-row flex-nowrap hidden md:flex">
+                <li class="text-center w-24 py-5"><a href="#">首页</a></li>
+                <li class="text-center w-24 py-5"><a href="#">关于我们</a></li>
+                <li class="text-center w-24 py-5"><a href="#">新闻中心</a></li>
+                <li class="text-center w-24 py-5"><a href="#">业务范围</a></li>
+                <li class="text-center w-24 py-5"><a href="#">公司业绩</a></li>
+                <li class="text-center w-24 py-5"><a href="#">人才招聘</a></li>
+                <li class="text-center w-24 py-5"><a href="#">联系我们</a></li>
+            </ul>
+        
+        <p>地址：湖南岳阳市岳阳大道西177号湘泰楼401室</p>
+        <p class="flex flex-col md:flex-row"><span class="px-2"> 电话：0730-8186508 </span> <span class="px-2"> 技术支持：森德科技 </span> <span class="px-2">备案号： 湘ICP备18009670号-2
+            </span></p>
+    </footer>
+
+</body>
+
 </html>
